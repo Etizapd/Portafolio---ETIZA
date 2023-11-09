@@ -22,7 +22,6 @@ body{
     position: relative;
     opacity: 0;
     transition: opacity 0.5s;
-     /* Add this line to make sure the body can act as a reference for z-index */
 }
 main{
     display:block;
@@ -596,6 +595,7 @@ line-height: 162.5%; /* 32.5px */
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .formulario input{
@@ -693,7 +693,7 @@ border-style: none;
 }
 
 .footer_izq{
-    width: 580px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -701,7 +701,7 @@ border-style: none;
 }
 
 .footer_der{
-    width: 580px;
+    width: 80%;
     display: flex;
 }
 
@@ -1506,6 +1506,10 @@ _________________________________________________________*/
 
 @media (max-width:410px) {
 
+    .myheader{
+        width: 100%;
+    }
+
     .texto-quienes-somos p{
         color: #6B6B6B;
 font-family: Poppins;
@@ -1675,6 +1679,75 @@ flex-shrink: 0;
     width: 20.8125rem;
     height: 15rem;
 }
+
+.formulario input::placeholder{
+    color: #FFF;
+font-family: Poppins;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.formulario textarea::placeholder{
+    color: #FFF;
+font-family: Poppins;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: capitalize;
+}
+
+/*footer*/
+
+.footer{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_izq{
+    padding: 0;
+}
+
+.logoytexto{
+    width: auto;
+}
+
+.logo_footer img{
+    width: 100%;
+}
+
+.texto_footer{
+    width: 100%;
+}
+
+.texto_footer p{
+    color: #FFF;
+font-family: Poppins;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 168.5%; /* 1.26375rem */
+}
+
+.social_footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer_der{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 
 
