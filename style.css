@@ -371,10 +371,10 @@ line-height: 162.5%; /* 32.5px */
 
 .titulo-cliente{
     width: 100%;
-    margin: 80px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px ;
 }
 
 .titulo-cliente h2{
@@ -438,7 +438,7 @@ line-height: 162.5%; /* 32.5px */
 
 
 .titulo-exito{
-    margin: 30px 80px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -466,14 +466,26 @@ line-height: 162.5%; /* 32.5px */
 
 .cliente-fila{
     width: 100%;
-    height: 85.283px;
+    height: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px;
 }
 
-.cliente-fila img{
+.logo-cliente{
+    display: flex;
+    flex-direction: row;
+}
+
+.logoU{
+    display: grid;
+    grid-row: 2;
+    gap: 50px;
+}
+
+.logoU img{
+    width: 200px;
     margin: 40px 20px;
     
 }
@@ -498,9 +510,9 @@ line-height: 162.5%; /* 32.5px */
 }
 
 .titulo-contacto{
-    
+    width: 100%;
     text-align: center;
-    padding: 72px;
+    padding: 50px;
 }
 
 
@@ -592,7 +604,7 @@ height: 70px;
 flex-shrink: 0;
 background: #474646;
 box-shadow: none;
-margin: 20px 0px;
+
 transition: all 0.5s ease;
 border-style: none;
 }
@@ -1277,7 +1289,7 @@ text-transform: uppercase;
         align-items: CENTER;
         justify-content: center;
         text-align: center;
-        padding-bottom: 200px;
+        padding-bottom: 60px;
         width: 100%;
     }
 
@@ -1355,7 +1367,7 @@ text-transform: uppercase;
 
     .cliente-fila{
         flex-direction: column;
-        padding: 150px;
+        
 }
 
 /*CONTACTO*/
@@ -1535,5 +1547,144 @@ height: 6.36794rem;
 flex-shrink: 0;
 }
 
-    
+/*clientes*/
+
+.link-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cambio{
+    width: 100%;
+    height: 100%;
+}
+
+.enac{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.enac img{
+    width: 100%;
+    height: 100%;
+}
+
+.autonoma{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.autonoma img{
+    width: 100%;
+    height: 100%;
+}
+
+.aiep{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.aiep img{
+    width: 100%;
+    height: 100%;
+}
+
+.inacap{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.inacap img{
+    width: 100%;
+    height: 100%;
+}
+
+/*quienes somos*/
+
+.imagen-quienes-somos img{
+    width: 90%;
+}
+
+/*casos de exito*/
+
+.cliente-fila{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.logo-cliente{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.logoU{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*contacto*/
+
+.titulo-contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-contacto h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cont_contacto{
+    width: 100%;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
+    width: 20.8125rem;
+    height: 3.375rem;
+}
+
+.formulario textarea{
+    width: 20.8125rem;
+    height: 15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
